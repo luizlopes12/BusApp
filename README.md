@@ -1,2 +1,2 @@
 # BusApp
- Trabalho de programação mobile
+ Trabalho de programação mobile com Phonegap
