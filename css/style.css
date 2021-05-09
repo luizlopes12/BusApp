@@ -27,6 +27,10 @@
     width: 200px;
     margin: auto;
 }
+.login{
+    display: flex;
+    justify-content: center;
+}
 .email{
     display: flex;
     margin: auto;
@@ -68,4 +72,40 @@
     width: 40%;
     left: 28px;
     top: 21px;
+}
+.btn-entrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin: 100px auto 10px;
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 700;
+    background-color: rgb(222, 226, 0);
+    border-radius: 10px;
+    line-height: 50px;
+    border: none;
+    transition: all .1s linear;
+}
+.btn-entrar:hover{
+    background-color: rgb(177, 180, 0);
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.socials p{
+    color: #ffffff;
+    font-size: .9em;
+    text-align: center;
+}
+.socials-imgs{
+    display: flex;
+    justify-content: center;
+}
+.socials-imgs img{
+    width: 45px;
+    margin: 0 10px 0 10px;
 }
