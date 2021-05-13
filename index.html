@@ -18,6 +18,8 @@
     <link rel="icon" href="https://img.icons8.com/plasticine/200/000000/bus--v2.png">
     <!--bootstrap-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--icones do font awesome-->
+    <script src="https://kit.fontawesome.com/df541bc4ea.js" crossorigin="anonymous" defer></script>
     <title>BusApp</title>
   </head>
   <body>
@@ -60,11 +62,16 @@
                   <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
                 </svg>
               </div>
+              <div class="pass-eye">
+              <i class="fas fa-eye" id="eye" onclick="showPass()"></i>
+              <i class="fas fa-eye-slash" id="eye-slash" onclick="showPass()"></i>
+              </div>
               <!--input password-->
               <input
                 type="password"
                 class="pass"
                 name="pass"
+                id="field-password"
                 placeholder="Digite sua senha"
               >
               <!--Botão entrar-->

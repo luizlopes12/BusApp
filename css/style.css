@@ -77,7 +77,22 @@ body{
 .pass:focus {
   outline: none;
 }
-
+.pass-eye{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pass-eye i{
+  position: absolute;
+  right: 4%;
+  top: 10px;
+  color: #646464;
+  cursor: pointer;
+}
+.pass-eye #eye{
+  display: none;
+}
 .btn-entrar {
   display: flex;
   justify-content: center;
