@@ -10,7 +10,6 @@ body{
   background: linear-gradient(180deg, #00bbe7 0%, #00e7dd 100%) center center fixed;
   background-size: cover;
 }
-
 .logo {
   display: flex;
   justify-content: center;
