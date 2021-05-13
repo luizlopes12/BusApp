@@ -88,14 +88,14 @@ body{
   color: #fff;
   font-size: 1.4em;
   font-weight: 700;
-  background-color: rgb(28, 140, 148);
+  background-color: rgb(236, 214, 44);
   border-radius: 10px;
   line-height: 50px;
   border: none;
   transition: all 0.1s linear;
 }
 .btn-entrar:hover {
-  background-color: rgb(177, 180, 0);
+  background-color: rgb(221, 200, 41);
 }
 .socials {
   display: flex;
