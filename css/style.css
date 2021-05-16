@@ -85,8 +85,7 @@ body{
   position: absolute;
   right: 4%;
   top: 12px;
-  color: #b4b4b4;
-  cursor: pointer;
+  color: #727272;
 }
 .pass-eye #eye{
   display: none;
