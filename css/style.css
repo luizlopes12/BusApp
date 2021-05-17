@@ -90,6 +90,11 @@ body{
 .pass-eye #eye{
   display: none;
 }
+.forgot a{
+  color: #ffffff;
+  font-size: .7em;
+  font-weight: normal;
+}
 .btn-entrar {
   display: flex;
   justify-content: center;

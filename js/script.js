@@ -5,7 +5,7 @@ function showPass(){
     //olho esconder
     const eyeSlash = document.querySelector('#eye-slash');
     //campo da senha a ser modificado
-    const fieldPass = document.querySelector('#field-password');
+    const fieldPass = document.querySelector('#inputPass');
    
     //mudar para o tipo texto se o mostrar estiver
    if(eye.style.display === 'none'){

@@ -54,6 +54,7 @@
                 type="email"
                 name="email"
                 placeholder="Digite seu e-mail"
+                id="inputEmail"
               >
               <!--Icone dentro do input password-->
               <div class="pass-icon col-2">
@@ -72,9 +73,14 @@
                 type="password"
                 class="pass"
                 name="pass"
-                id="field-password"
+                id="inputPass"
                 placeholder="Digite sua senha"
               >
+              <!--Parte do esqueceu a senha e recuperar conta-->
+              <div class="forgot col-12 pt-2 d-flex m-auto justify-content-around">
+                <a href=""><span>Esqueceu sua senha?</span></a>
+                <a href=""><span>Recuperar conta</span></a>
+              </div>
               <!--Botão entrar-->
               <input type="submit"  value="Entrar" class="btn-entrar">
             </form>
@@ -85,7 +91,7 @@
             <p>Entrar com:</p>
           </div>
           <!--entrar com redes sociais-->
-          <div class="col socials-imgs">
+          <div class="col socials-imgs pb-4">
             <a href="#">
               <img src="img/feice.png" alt="facebook" />
             </a>
