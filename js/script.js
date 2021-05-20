@@ -20,3 +20,4 @@ function showPass(){
        fieldPass.type = 'password'
    }
    }
+//função de abrir o menu na pagina de selecionar origem e destino
