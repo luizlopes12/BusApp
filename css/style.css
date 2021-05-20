@@ -4,8 +4,7 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-body{
+.app{
   background: rgb(0,195,231);
   background: linear-gradient(180deg, #00bbe7 0%, #00e7dd 100%) center center fixed;
   background-size: cover;
@@ -130,4 +129,46 @@ body{
 .socials-imgs img {
   width: 45px;
   margin: 0 10px 0 10px;
+}
+/*Estilos da pagina bus selection*/
+.selection-header{
+  background-color: #00bbe7;
+  height: 60px;
+  width: 100%;
+}
+.selection-menu{
+  padding: 15px;
+}
+.selection-main{
+  display: flex;
+  justify-content: center;
+}
+.bus-infos{
+  margin-top: 20px;
+}
+.inputs-select{
+  height: 30px;
+  margin: 5px 0;
+}
+.pesquisar-button{
+  height: 42px;
+  font-weight: bolder;
+  color: #fff;
+  background-color: rgba(128, 128, 128, 0.7);
+  border: none;
+  border-radius: 8px;
+}
+.pesquisar-button:hover{
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(128, 128, 128, 0.9);
+}
+.onibus-grid{
+  display: block;
+  height: 450px;
+  background-color: rgb(179, 156, 156);
+}
+.selection-footer{
+  background-color: #00bbe7;
+  height: 60px;
+  width: 100%;
 }

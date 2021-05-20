@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *">
+    <!--icones da icons8-->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <!--icone da pagina-->
+    <link rel="icon" href="https://img.icons8.com/plasticine/200/000000/bus--v2.png">
+    <!--bootstrap-->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <!--icones do font awesome-->
+    <script src="https://kit.fontawesome.com/df541bc4ea.js" crossorigin="anonymous" defer></script>
+    <title>BusApp</title>
+  </head>
+  <body>
+    <header class="selection-header">
+        <div class="selection-menu">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+    </header>
+    <main class="selection-main">
+    <form class="bus-infos" action="">
+        <select class="col-12 inputs-select" name="origem-select" id="origem-select">
+            <option value="none"></option>
+            <option value="origem1">Origem 1</option>
+            <option value="origem2">Origem 2</option>
+            <option value="origem3">Origem 3</option>
+        </select>
+        <select class="col-12 inputs-select" name="destino-select" id="destino-select">
+            <option value="none"></option>
+            <option value="destino1">Destino 1</option>
+            <option value="destino2">Destino 2</option>
+            <option value="destino3">Destino 3</option>
+        </select>
+        <input type="submit" value="Pesquisar" class="col-12 pesquisar-button">
+    </form>
+    <div class="onibus-grid">
+    </div>
+    </main>
+    <footer class="selection-footer">
+
+    </footer>
+
+
+
+
+
+  </body>
+
+
+
+  </html>
