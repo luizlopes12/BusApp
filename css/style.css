@@ -144,7 +144,11 @@
   justify-content: center;
 }
 .bus-infos{
-  margin-top: 20px;
+  margin-top: 10px;
+  width: 80%;
+}
+.bus-infos p{
+  margin: none;
 }
 .inputs-select{
   height: 30px;
@@ -161,11 +165,6 @@
 .pesquisar-button:hover{
   color: rgba(255, 255, 255, 0.5);
   background-color: rgba(128, 128, 128, 0.9);
-}
-.onibus-grid{
-  display: block;
-  height: 450px;
-  background-color: rgb(179, 156, 156);
 }
 .selection-footer{
   background-color: #00bbe7;
