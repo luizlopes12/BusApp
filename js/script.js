@@ -21,3 +21,6 @@ function showPass(){
    }
    }
 //função de abrir o menu na pagina de selecionar origem e destino
+function buscarOnibus(){
+   
+}

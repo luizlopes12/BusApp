@@ -4,9 +4,10 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.app{
-  background: rgb(0,195,231);
+.login-page{
   background: linear-gradient(180deg, #00bbe7 0%, #00e7dd 100%) center center fixed;
+}
+.app{
   background-size: cover;
 }
 .logo {
@@ -171,4 +172,18 @@
   background-color: #00bbe7;
   height: 60px;
   width: 100%;
+}
+.bus-selection-page{
+  background-color: rgb(255, 255, 255);
+}
+.onibus-grid{
+  margin: 20px auto;
+  width: 95%;
+  height: 200px;
+}
+.off{
+  display: none;
+}
+.on{
+  display: inherit;
 }
